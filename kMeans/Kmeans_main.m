@@ -1,7 +1,7 @@
 clear 
 
 %% 
-load('dataimg.mat')
+load('MallCustomers.mat')
 
 KM = Kmeans;
 KM.dataIn = data(1)';
